@@ -16,3 +16,4 @@ main =  do  -- with tests in other modules
     dirMain
     openMain
 
+ 
