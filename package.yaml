@@ -6,11 +6,6 @@ description:
     version 0.2.1 - no imports, no test, to learn about ghcide
 dependencies:
   - base == 4.*
-#   - uniform-strings
-#   - uniform-convenience
-# #  - test-framework 
-#   - QuickCheck
-#   - HTF
 
 library:
   source-dirs: .

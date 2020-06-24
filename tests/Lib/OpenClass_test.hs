@@ -1,7 +1,6 @@
 -----------------------------------------------------------------------------
 --
--- Module      :   a test for HTF framework
--- insert {-@ HTF_TESTS @-} for each import
+-- Module      :   a test  
 -----------------------------------------------------------------------------
 {-# OPTIONS_GHC -F -pgmF htfpp #-}
 {-# LANGUAGE FlexibleContexts      #-}
@@ -11,9 +10,9 @@
 {-# LANGUAGE TypeFamilies          #-}
 {-# LANGUAGE TypeSynonymInstances  #-}
 {-# LANGUAGE OverloadedStrings     #-}
+
 module Lib.OpenClass_test  -- (openMain, htf_thisModuelsTests)
      where
-
 
 import           Test.Framework
 -- import Uniform.Strings
@@ -21,8 +20,6 @@ import           Test.Framework
 openMain :: IO ()
 openMain = do
     return ()
-
-
 
 -- show produces the "xx"
 test_1 = assertEqual 7 4
