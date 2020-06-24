@@ -16,7 +16,7 @@ module Lib.OpenClass_test  -- (openMain, htf_thisModuelsTests)
 
 
 import           Test.Framework
-import Uniform.Strings
+-- import Uniform.Strings
 
 openMain :: IO ()
 openMain = do

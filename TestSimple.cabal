@@ -4,12 +4,12 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 17a14a5c14811bb5eaa674d699f2ede83c12ca23a5deb0a028e7105ea6f6652a
+-- hash: 6c26e3aba0fc3bf1737c3e759394a93ea24446d653f7fa1bd3028d9a54ec4dbe
 
 name:           TestSimple
 version:        0.2.1
 description:    version 0.2.1 - no imports, no test, to learn about ghcide
-license:        BSD2
+license:        MIT
 license-file:   LICENSE
 build-type:     Simple
 
@@ -36,4 +36,20 @@ executable foo
   build-depends:
       TestSimple
     , base ==4.*
+  default-language: Haskell2010
+
+test-suite test1
+  type: exitcode-stdio-1.0
+  main-is: Testing.hs
+  other-modules:
+      Lib.DirTree_test
+      Lib.OpenClass_test
+      Paths_TestSimple
+  hs-source-dirs:
+      tests
+  ghc-options: -Wall
+  build-depends:
+      TestSimple
+    , base ==4.*
+    , test-framework
   default-language: Haskell2010
