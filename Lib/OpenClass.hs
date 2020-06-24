@@ -11,6 +11,7 @@
 {-# LANGUAGE OverloadedStrings     #-}
 {-# OPTIONS_GHC -Wno-missing-signatures #-}
 
+
 module Lib.OpenClass   
      where
 

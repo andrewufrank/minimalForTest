@@ -23,5 +23,5 @@ tests:
     source-dirs: tests
     dependencies: 
       - TestSimple
-      - test-framework 
+      - HTF
 
