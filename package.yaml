@@ -3,20 +3,28 @@ version:        0.2.1
 
 ghc-options: -Wall
 description: 
-    version 0.2.1 - no imports, no test, to learn about ghcide
+    version 0.2.1 - to test my lualatex call
 dependencies:
-  - base == 4.*
+  - base  
+  - uniform-error
+  - uniform-strings
+  - uniform-fileio
+  - process
 
 library:
   source-dirs: .
 
 executables:
   foo:
-    main: ClassMain.hs
+    main: MyMain.hs
     source-dirs: src
     dependencies: 
       - TestSimple
-
+      - base  
+      - uniform-error
+      - uniform-strings
+      - uniform-fileio
+      - process
 tests:
   test1:
     main: Testing.hs
@@ -24,4 +32,9 @@ tests:
     dependencies: 
       - TestSimple
       - HTF
+      - base  
+      - uniform-error
+      - uniform-strings
+      - uniform-fileio
+      - process
 

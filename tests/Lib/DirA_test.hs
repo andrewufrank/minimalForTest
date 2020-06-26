@@ -12,11 +12,11 @@
 {-# LANGUAGE TypeSynonymInstances  #-}
 {-# LANGUAGE OverloadedStrings     #-}
 
-module Lib.DirA_test  -- (openMain, htf_thisModuelsTests)
+module Lib.DirA_test   
      where
 
 
-import Test.Framework
+-- import Test.Framework
 -- import Uniform.Strings
 
 aTest :: IO ()
@@ -25,9 +25,8 @@ aTest = do
 
 
 
--- show produces the "xx"
-test_1 = assertEqual 7 8
-test_2 = assertEqual 6 9
+
+
 
 
 

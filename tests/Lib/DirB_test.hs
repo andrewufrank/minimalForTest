@@ -14,7 +14,7 @@
 module Lib.DirB_test  -- (openMain, htf_thisModuelsTests)
      where
 
-import           Test.Framework
+-- import           Test.Framework
 -- import Uniform.Strings
 
 btest :: IO ()

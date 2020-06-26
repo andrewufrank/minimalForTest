@@ -3,8 +3,9 @@ cradle:
     - path: "././."
       component: "TestSimple:lib"
 
-    - path: "./src/ClassMain.hs"
+    - path: "./src/MyMain.hs"
       component: "TestSimple:exe:foo"
 
-    - path: "./tests"
-      component: "TestSimple:test:test1"
+
+    # - path: "./tests"
+    #   component: "TestSimple:test:test1"

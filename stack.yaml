@@ -5,7 +5,18 @@ packages:
  
 
 extra-deps: 
- - test-invariant-0.4.5.0
+- ../uniform/uniform-strings
+- ../uniform/uniform-algebras
+- ../uniform/uniform-convenience
+- ../uniform/uniform-cmdLineArgs
+- ../uniform/uniform-fileio
+# - ../uniform/uniform-ftp
+- ../uniform/uniform-time
+- ../uniform/uniform-error
+- ../uniform/uniform-json
+- ../uniform/uniform-pandoc
+
+- test-invariant-0.4.5.0
 
 
 resolver: lts-16.0
