@@ -1,9 +1,7 @@
 -----------------------------------------------------------------------------
 --
--- Module      :   a test  
+-- Module      :   a more elaborate sub
 -----------------------------------------------------------------------------
-{-# OPTIONS_GHC -F -pgmF htfpp #-}
-
 {-# LANGUAGE FlexibleContexts      #-}
 {-# LANGUAGE FlexibleInstances     #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
@@ -11,23 +9,19 @@
 {-# LANGUAGE TypeFamilies          #-}
 {-# LANGUAGE TypeSynonymInstances  #-}
 {-# LANGUAGE OverloadedStrings     #-}
+{-# OPTIONS_GHC -Wno-missing-signatures #-}
 
-module Lib.DirTree_test  -- (openMain, htf_thisModuelsTests)
+
+module Lib.DirB  
      where
 
-
-import Test.Framework
 -- import Uniform.Strings
 
-openMain :: IO ()
-openMain = do
+bMain :: IO ()
+bMain = do
     return ()
 
 
-
--- show produces the "xx"
-test_1 = assertEqual 7 8
-test_2 = assertEqual 6 9
 
 
 

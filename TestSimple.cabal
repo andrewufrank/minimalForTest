@@ -15,19 +15,19 @@ build-type:     Simple
 
 library
   exposed-modules:
-      Lib.DirTree
-      Lib.OpenClass
+      Lib.DirA
+      Lib.DirB
   other-modules:
       Paths_TestSimple
   hs-source-dirs:
       ./.
   ghc-options: -Wall
   build-depends:
-      base ==4.*
+      base 
   default-language: Haskell2010
 
 executable foo
-  main-is: ClassMain.hs
+  main-is: MyMain.hs
   other-modules:
       Paths_TestSimple
   hs-source-dirs:
@@ -35,15 +35,15 @@ executable foo
   ghc-options: -Wall
   build-depends:
       TestSimple
-    , base ==4.*
+    , base 
   default-language: Haskell2010
 
 test-suite test1
   type: exitcode-stdio-1.0
   main-is: Testing.hs
   other-modules:
-      Lib.DirTree_test
-      Lib.OpenClass_test
+      Lib.DirA_test
+      Lib.DirB_test
       Paths_TestSimple
   hs-source-dirs:
       tests
@@ -51,5 +51,5 @@ test-suite test1
   build-depends:
       HTF
     , TestSimple
-    , base ==4.*
+    , base  
   default-language: Haskell2010

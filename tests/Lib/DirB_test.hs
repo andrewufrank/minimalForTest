@@ -11,14 +11,14 @@
 {-# LANGUAGE TypeSynonymInstances  #-}
 {-# LANGUAGE OverloadedStrings     #-}
 
-module Lib.OpenClass_test  -- (openMain, htf_thisModuelsTests)
+module Lib.DirB_test  -- (openMain, htf_thisModuelsTests)
      where
 
 import           Test.Framework
 -- import Uniform.Strings
 
-openMain :: IO ()
-openMain = do
+btest :: IO ()
+btest = do
     return ()
 
 -- show produces the "xx"

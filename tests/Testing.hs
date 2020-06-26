@@ -10,8 +10,8 @@ module Main     where      -- must have Main (main) or Main where
 
  
 import           Test.Framework
-import {-@ HTF_TESTS @-} Lib.DirTree_test
-import {-@ HTF_TESTS @-} Lib.OpenClass_test  
+import {-@ HTF_TESTS @-} Lib.DirA_test
+import {-@ HTF_TESTS @-} Lib.DirB_test  
 
 main :: IO ()
 main =  do  -- with tests in other modules

@@ -15,12 +15,12 @@
 
 
 
-module Lib.DirTree   
+module Lib.DirA   
      where
 
-dirMain :: IO ()
-dirMain = do
-    putStrLn "Lib.DirTree here"
+aMain :: IO ()
+aMain = do
+    putStrLn "Lib.DirA here"
     return ()
 
 
