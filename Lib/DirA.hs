@@ -33,8 +33,10 @@ writePDF2text ::   Path Abs File -> Path Abs File -> ErrIO ()
 -- in the second path 
 writePDF2text  fn fnres = do
     -- -- check for locale 
-    loc <- callIO $ Sys.callProcess "locale" []
-    putIOwords ["writePDF2text locale "]
+    -- loc <- callIO $ Sys.callProcess "locale" []
+    -- putIOwords ["writePDF2text locale "]
+    ls <- callIO $ Sys.callProcess "ls" []
+    putIOwords ["writePDF2text ls "]
 
     -- process
 

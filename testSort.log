@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.4.24)  26 JUN 2020 18:26
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.4.24)  27 JUN 2020 10:54
  restricted system commands enabled.
 **/home/frank/Workspace8/minimalForTest/testSort.tex
 (/home/frank/Workspace8/minimalForTest/testSort.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.062 seconds
+luaotfload | main : initialization completed in 0.061 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2019/02/01 v3.26b KOMA-Script document class (book)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -716,14 +716,27 @@ Package auxhook Info: \AddLineBeginMainAux comes a little late,
  164.
 \BKM@id=\count273
 ))
-<DSC08138.JPG, id=4, 1010.95406pt x 758.21555pt>
+</home/frank/Workspace8/minimalForTest/DSC08138.JPG, id=4, 1010.95406pt x 758.21
+555pt>
+File: /home/frank/Workspace8/minimalForTest/DSC08138.JPG Graphic file (type jpg)
+
+<use /home/frank/Workspace8/minimalForTest/DSC08138.JPG>
+Package luatex.def Info: /home/frank/Workspace8/minimalForTest/DSC08138.JPG  use
+d on input line 17.
+(luatex.def)             Requested size: 1010.9516pt x 758.2137pt.
+<DSC08138.JPG, id=5, 1010.95406pt x 758.21555pt>
 File: DSC08138.JPG Graphic file (type jpg)
 <use DSC08138.JPG>
-Package luatex.def Info: DSC08138.JPG  used on input line 16.
+Package luatex.def Info: DSC08138.JPG  used on input line 18.
 (luatex.def)             Requested size: 1010.9516pt x 758.2137pt.
 
-Overfull \hbox (647.50914pt too wide) in paragraph at lines 16--17
-[][] 
+Overfull \hbox (674.80914pt too wide) in paragraph at lines 17--19
+[]\TU/lmr/m/n/10 works []
+ []
+
+
+Overfull \hbox (671.40913pt too wide) in paragraph at lines 17--19
+\TU/lmr/m/n/10 but not [] 
  []
 
 
@@ -735,35 +748,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (220.2137pt too high) has occurred while \output is active []
 
 
-[2<./DSC08138.JPG>]
+[2</home/frank/Workspace8/minimalForTest/DSC08138.JPG>]
+Overfull \vbox (220.2137pt too high) has occurred while \output is active []
+
+
+[3<./DSC08138.JPG>]
 No file testSort.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
  (/home/frank/Workspace8/minimalForTest/testSort.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
 Package rerunfilecheck Info: File `testSort.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19944 strings out of 494383
+ 19955 strings out of 494383
  100000,794899 words of node,token memory allocated
  478 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 glyph, 6 attribute, 55 glue_spec,
  6 attribute_list, 1 write nodes
-   avail lists: 2:61,3:10,4:8,5:39,6:3,7:353,8:4,9:28,10:1,11:29
- 23802 multiletter control sequences out of 65536+600000
+   avail lists: 2:70,3:10,4:8,5:39,6:3,7:353,8:5,9:34,10:1,11:29
+ 23806 multiletter control sequences out of 65536+600000
  29 fonts using 6070711 bytes
  54i,9n,77p,9145b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmroman10-regular.otf>
-Output written on testSort.pdf (3 pages, 9414004 bytes).
+Output written on testSort.pdf (4 pages, 18816875 bytes).
 
-PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 131072)
+PDF statistics: 41 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
