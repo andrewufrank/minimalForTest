@@ -20,11 +20,11 @@ executables:
     source-dirs: src
     dependencies: 
       - TestSimple
-      - base  
-      - uniform-error
-      - uniform-strings
-      - uniform-fileio
-      - process
+      # - base  
+      # - uniform-error
+      # - uniform-strings
+      # - uniform-fileio
+      # - process
 tests:
   test1:
     main: Testing.hs
@@ -32,9 +32,9 @@ tests:
     dependencies: 
       - TestSimple
       - HTF
-      - base  
-      - uniform-error
-      - uniform-strings
-      - uniform-fileio
-      - process
+      # - base  
+      # - uniform-error
+      # - uniform-strings
+      # - uniform-fileio
+      # - process
 
